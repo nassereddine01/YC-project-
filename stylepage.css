@@ -1,0 +1,192 @@
+/*section*/
+.section1{
+    height:100px;
+    width: 80%;   
+    background-color:rgb(237, 237, 237) ;
+    margin-left: 10%;
+    margin-right:15%;
+    margin-top:5%;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+span{
+    color:#ff8e18;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 25px ;
+}
+/*fin section*/
+
+/*images slider*/
+#pics{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#pics div{
+    width: 33%;
+}
+#pics div:first-of-type{
+    background-image:url('./banner-item-01.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#pics div:nth-of-type(2){
+    background-image:url('./banner-item-02.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}#pics div:last-of-type{
+    background-image:url('./banner-item-03.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pics h5{
+    margin: 20px;
+    color:#ff8e18;
+}
+#pics h4{
+    margin: 20px;
+    color:white;
+}
+.list{
+    margin-bottom: 20px ;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.list li{
+    display: inline-block;
+    padding-right:10px ;
+    color: white;
+    font-size: 12px;
+    font-weight:bold ;
+}
+/*fin image slider*/
+
+/*download btn*/
+.download{
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 120px;
+    padding: 20px;
+    
+}
+p{
+  color: #ff8e18;
+  padding-left: 20px;
+  font-size: small;
+  display: inline-flex;
+}
+.btn{
+    background-color: #fc8a10;
+    color: white;
+    margin-left:80%;
+   padding: 0.3cm;
+}
+/*fin download btn*/
+
+/*paraghraphe et image*/
+ul{
+    list-style-type:none;
+}
+li{
+    display:inline-block;
+    font-weight: bold;
+}
+.evrthng{
+    display: inline-flex;
+}
+.headings{
+    margin-left: 20%;
+   
+}
+hr{
+    color:grey;
+    width:400px;
+}
+.date{
+    color: gray;
+}
+#fb{
+    display: inline;
+    margin: 5cm;
+}
+
+div.gallery {
+    border: 1px solid #777;
+    width: 650px;
+    margin-left: 3cm;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 650px;
+    
+  }
+  
+  div.desc {
+    padding: 10px;
+  }
+  .block {
+    width: 660px;
+    border: none;
+    background-color:#fc8a10;
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 2.9cm;
+  }
+  
+  .block:hover {
+    background-color:#777;
+    color:#fc8a10;
+  }
+  .footer {
+    margin-top: 50px;
+    background-color: black;
+    border: 1px solid black;
+    height: 210px;
+    padding-top: 20px;
+    margin-left:10% ;
+    margin-right:10%;
+    text-align: center;
+}
+.hoho{
+    border-bottom: black  solid 1px ;
+}
+.hoho .hehe{
+    text-decoration: none;
+     color: white;
+      margin-left: 10px ;
+      padding: 15px;
+}
+.new{
+    width:60%;
+}
+.neww{
+    font-size: small;
+   }
